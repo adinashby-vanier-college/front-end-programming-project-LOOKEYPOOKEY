@@ -1,0 +1,156 @@
+/* ------------- FIRST PAGE ----------------------------------------------------- */
+.upper_container {
+    background-color: #ffcf3b;
+}
+
+.flower_scribble {
+    width: 150px;
+    margin-left: 2%;
+}
+
+.first_portfolio_title {
+    width: 150px;
+}
+
+.logo {
+    display: flex; 
+    justify-content: left; 
+}
+
+.nav {
+    display: flex; 
+    justify-content: right; 
+    gap: 5px;
+    margin-right: 2%;
+}
+
+.lower_container {
+    background-color: #e193d4;
+}
+
+.welcome_text {
+    font-size:60px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* "let me show you" text */
+.FIRST_PAGE {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    margin-left: 30%;
+}
+
+.long_tape {
+    width: 150px;
+}
+
+.mini_flowers {
+    width: 150px;
+}
+
+.flower_stem {
+    width: 150px;
+}
+
+.diagonal_scribble {
+    width: 150px;
+}
+
+.encercler {
+    width: 150px;
+}
+
+/* ------------- SECOND PAGE ---------------------------------------------------- */
+.about_page {
+    background-color: #c4dc49;
+}
+
+.about_me {
+    width: 200px;
+}
+
+.about_paragraph {
+    font-size: larger;
+}
+
+.short_tape {
+    width: 150px;
+}
+
+.shy_gurl {
+    width: 150px;
+}
+
+.flower_background {
+    width: 100px;
+}
+
+
+/* ------------- TO MAKE WIGGLY ICONS -----------------Define the wiggle animation 
+@keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+}
+
+/* Apply the animation to the image 
+.flower_scribble {
+    width: 150px; /* Adjust as needed 
+    height: auto; /* Maintain aspect ratio 
+    display: block; /* Optional: Center alignment helper 
+    margin: 0 auto; /* Optional: Center alignment 
+    animation: wiggle 0.5s ease-in-out infinite; /* Infinite loop 
+} */
+
+/* ------------- CAROUSEL PAGE TRY --------------------------- 
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Hides the parts of the carousel that are outside the container 
+} 
+
+.carousel {
+    display: flex; Ensures the slides are in a row 
+    transition: transform 0.5s ease-in-out;  Smooth transition when moving between slides 
+}
+
+
+.project {
+    flex: 0 0 100%;  Each slide takes 100% of the container width 
+    text-align: center;
+} 
+
+/*
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+/* ------------- HTML SCROLL EFFECT --------------------------- */
+html {
+    scroll-behavior: smooth;
+}

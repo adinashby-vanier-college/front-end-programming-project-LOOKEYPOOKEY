@@ -1,4 +1,10 @@
 /* ------------- FIRST PAGE ----------------------------------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 .upper_container {
     background-color: #ffcf3b;
 }
@@ -62,7 +68,7 @@
     width: 150px;
 }
 
-/* ------------- SECOND PAGE ---------------------------------------------------- */
+/* ------------- ABOUT PAGE ---------------------------------------------------- */
 .about_page {
     background-color: #c4dc49;
 }
@@ -86,6 +92,106 @@
 .flower_background {
     width: 100px;
 }
+
+/* ------------- SKILLS PAGE ---------------------------------------------------- */
+.skills_page {
+    background-color: #ffcf3b;
+}
+
+.MY_SKILLS {
+    width: 200px;
+}
+
+.diagonal_scribble2 {
+    width: 150px;
+}
+
+/* SECTION STYLING */
+#skills_page {
+    padding: 20px;
+    text-align: center; /* Centers all content within the section */
+}
+
+.skills_page {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line when needed */
+    justify-content: center; /* Centers the rows */
+    gap: 20px; /* Adds space between the divs */
+}
+
+/* DIV STYLING */
+.skills_page > div {
+    width: 200px; /* Gives a fixed width to each skill card */
+    text-align: center; /* Centers the content within the div */
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Adds a border for better visibility */
+    border-radius: 8px; /* Optional: Rounds the edges slightly */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for a clean look */
+}
+
+/* IMAGE STYLING */
+.skills_page img {
+    width: 150px; /* Sets all images to 150px width */
+    height: auto; /* Keeps the aspect ratio */
+    margin-bottom: 10px; /* Adds spacing below the image */
+}
+
+/* TEXT STYLING */
+.skills_page p:first-of-type {
+    font-weight: bold; /* Makes the first paragraph bold */
+    margin: 5px 0;
+}
+
+.skills_page p:last-of-type {
+    color: #555; /* Changes the second paragraph to a softer color */
+    margin: 5px 0;
+}
+
+
+/* ------------- PROJECTS PAGE ---------------------------------------------------- */
+.upper_container2 {
+    background-color: c4dc49;
+}
+
+.flower_scribble2 {
+    width: 150px;
+}
+
+.PROJECTS {
+    width: 250px;
+}
+
+.long_tape2 {
+    height: 100px;
+    width: 250px;
+}
+
+.lower_container2 {
+    background-color: e193d4;
+}
+
+.flower_background2 {
+    width: 1000px;
+}
+
+.cage_img {
+    width: 950px;
+}
+
+.tindog_img {
+    width: 950px;
+}
+
+.converse_img {
+    width: 950px;
+}
+
+.green_flower_scribble {
+    width: 300px;
+}
+
+
+
 
 
 /* ------------- TO MAKE WIGGLY ICONS -----------------Define the wiggle animation 
